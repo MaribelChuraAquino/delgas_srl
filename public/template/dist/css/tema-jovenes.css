@@ -1,0 +1,186 @@
+/* Estilos generales para el tema Jóvenes */
+body {
+    background-color: #F0F4FF !important; /* Azul muy claro y fresco */
+    color: #2D3748 !important; /* Azul oscuro moderno */
+    font-family: 'Poppins', sans-serif !important; /* Fuente moderna y juvenil */
+    font-size: 16px !important; /* Tamaño más legible */
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Navbar */
+.main-header {
+    background-color: #6C63FF !important; /* Violeta vibrante */
+    color: #FFFFFF !important; /* Texto blanco */
+    font-family: 'Poppins', sans-serif !important;
+    padding: 15px 25px !important; /* Padding más espacioso */
+}
+
+.main-header .navbar-nav .nav-link {
+    color: #FFFFFF !important;
+    font-size: 1rem !important; /* Tamaño más grande */
+    font-weight: 500 !important; /* Semi-bold para más presencia */
+}
+
+.main-header .navbar-nav .nav-link:hover {
+    color: #FFD600 !important; /* Amarillo brillante */
+}
+
+/* Sidebar */
+.main-sidebar {
+    background-color: #4A48FF !important; /* Azul vibrante */
+    color: #FFFFFF !important;
+    padding-top: 25px !important;
+}
+
+.main-sidebar .nav-link {
+    color: #FFFFFF !important;
+    font-size: 1rem !important;
+    border-radius: 8px !important; /* Bordes más redondeados */
+    margin: 5px 10px !important;
+}
+
+.main-sidebar .nav-link:hover {
+    background-color: #FFD600 !important; /* Amarillo brillante */
+    color: #2D3748 !important; /* Texto oscuro al hover */
+}
+
+/* Footer */
+footer {
+    background-color: #6C63FF !important;
+    color: #FFFFFF !important;
+    font-family: 'Poppins', sans-serif !important;
+    padding: 15px 0 !important;
+}
+
+/* Tablas */
+table {
+    background-color: #FFFFFF !important;
+    color: #2D3748 !important;
+    border: 2px solid #E2E8F0 !important; /* Bordes más gruesos */
+    border-radius: 12px !important; /* Más redondeado */
+    width: 100% !important;
+    margin-top: 20px !important;
+    font-family: 'Poppins', sans-serif !important;
+    box-sizing: border-box !important;
+    table-layout: fixed !important;
+    overflow: hidden !important; /* Para los bordes redondeados */
+}
+
+table th, table td {
+    padding: 12px !important; /* Más padding */
+    text-align: center !important;
+    word-wrap: break-word !important;
+}
+
+table th {
+    background-color: #6C63FF !important; /* Violeta vibrante */
+    color: white !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+}
+
+/* Formularios y Entradas */
+input, select, textarea {
+    background-color: #FFFFFF !important;
+    color: #2D3748 !important;
+    border: 2px solid #E2E8F0 !important;
+    border-radius: 8px !important;
+    font-size: 1rem !important;
+    padding: 10px !important;
+    transition: all 0.3s ease !important;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none !important;
+    border-color: #6C63FF !important; /* Violeta al focus */
+    box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.2) !important;
+}
+
+button {
+    background-color: #6C63FF !important;
+    color: #FFFFFF !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+}
+
+button:hover {
+    background-color: #5651FF !important; /* Violeta más oscuro */
+    transform: translateY(-2px) !important;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #FFFFFF !important;
+    color: #2D3748 !important;
+    border-radius: 16px !important;
+    border: none !important;
+    box-shadow: 0 10px 20px rgba(108, 99, 255, 0.1) !important;
+    transition: transform 0.3s ease !important;
+}
+
+.card:hover {
+    transform: translateY(-5px) !important;
+}
+
+/* Enlaces */
+a {
+    color: #6C63FF !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+}
+
+a:hover {
+    color: #FFD600 !important;
+    text-decoration: none !important;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: #2D3748 !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 700 !important; /* Más bold para títulos */
+    margin-bottom: 15px !important;
+    text-shadow: none !important; /* Eliminamos sombras para un look más limpio */
+}
+
+/* Contenido Principal */
+.content-wrapper {
+    background-color: #FFFFFF !important;
+    color: #2D3748 !important;
+    border-radius: 16px !important;
+    box-shadow: 0 10px 20px rgba(108, 99, 255, 0.1) !important;
+}
+
+/* Párrafos */
+p {
+    font-size: 1rem !important;
+    line-height: 1.6 !important; /* Mejor legibilidad */
+}
+
+/* Alertas y Mensajes */
+.alert {
+    background-color: #EDF2FF !important; /* Fondo azul muy claro */
+    color: #2D3748 !important;
+    border-radius: 8px !important;
+    padding: 15px !important;
+    font-size: 1rem !important;
+    border: none !important;
+    box-shadow: 0 4px 6px rgba(108, 99, 255, 0.1) !important;
+}
+
+/* Estilo de los iconos */
+i {
+    color: #6C63FF !important; /* Violeta para iconos */
+    font-size: 1.5rem !important;
+    margin-right: 8px !important;
+}
+
+.marca {
+    color: #FFD600 !important; /* Amarillo brillante */
+}
+
+.recibir {
+    color: #FFD600 !important; /* Amarillo brillante */
+}

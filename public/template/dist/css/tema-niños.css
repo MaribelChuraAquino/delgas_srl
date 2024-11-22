@@ -1,0 +1,167 @@
+/* Estilos generales para el tema Niños */
+body {
+    background-color: #FFEB3B !important; /* Amarillo suave */
+    color: #FF7043 !important; /* Naranja suave para el texto */
+    font-family: 'Comic Sans MS', cursive, sans-serif !important; /* Fuente infantil */
+    font-size: 14px !important; /* Tamaño de fuente reducido */
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Navbar */
+.main-header {
+    background-color: #FF9800 !important; /* Naranja suave */
+    color: white !important;
+    font-family: 'Comic Sans MS', cursive, sans-serif !important;
+    padding: 10px 20px !important; /* Padding reducido */
+}
+
+.main-header .navbar-nav .nav-link {
+    color: white !important; /* Enlaces blancos */
+    font-size: 1rem !important; /* Fuente más pequeña */
+}
+
+.main-header .navbar-nav .nav-link:hover {
+    color: #FF5722 !important; /* Naranja suave al pasar el ratón */
+}
+
+/* Sidebar */
+.main-sidebar {
+    background-color: #FF7043 !important; /* Sidebar color armonioso */
+    font-family: 'Comic Sans MS', cursive, sans-serif !important;
+    padding-top: 15px !important;
+}
+
+.main-sidebar .nav-link {
+    color: white !important; /* Enlaces en blanco */
+    font-size: 1rem !important; /* Fuente más pequeña */
+}
+
+.main-sidebar .nav-link:hover {
+    background-color: #FF5722 !important; /* Fondo naranja suave al pasar el ratón */
+}
+
+/* Footer */
+footer {
+    background-color: #FF7043 !important; /* Coincide con el sidebar */
+    color: white !important;
+    font-family: 'Comic Sans MS', cursive, sans-serif !important;
+    padding: 12px 0 !important; /* Padding reducido */
+}
+
+/* Tablas */
+table {
+    background-color: #FFF9C4 !important; /* Fondo amarillo suave */
+    color: #1565C0 !important; /* Texto azul */
+    border: 1px solid #FF9800 !important; /* Bordes naranjas suaves */
+    border-radius: 8px !important; /* Bordes redondeados */
+    width: 100% !important;
+    margin-top: 20px !important;
+    font-family: 'Comic Sans MS', cursive, sans-serif !important;
+    box-sizing: border-box !important;
+    table-layout: fixed !important; /* Asegura que la tabla se ajuste en dispositivos pequeños */
+}
+
+table th, table td {
+    padding: 8px !important; /* Menos espacio dentro de celdas */
+    text-align: center !important;
+    word-wrap: break-word !important; /* Asegura que el texto largo se ajuste */
+}
+
+table th {
+    background-color: #FFEB3B !important; /* Amarillo claro para encabezados */
+    color: #FF7043 !important; /* Naranja suave para encabezados */
+    font-size: 1rem !important;
+}
+
+/* Formularios y Entradas */
+input, select, textarea {
+    background-color: #FFEB3B !important; /* Fondo amarillo brillante */
+    color: #1565C0 !important; /* Texto azul */
+    border: 2px solid #FF9800 !important; /* Bordes naranjas suaves */
+    border-radius: 6px !important; /* Bordes más suaves */
+    padding: 10px !important;
+    font-size: 0.9rem !important; /* Fuente más pequeña */
+    margin-bottom: 10px !important;
+    width: 100% !important;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none !important;
+    border-color: #FF5722 !important; /* Bordes naranjas al hacer foco */
+}
+
+/* Botones */
+button {
+    background-color: #FF9800 !important; /* Naranja suave */
+    color: white !important;
+    border: none !important;
+    padding: 8px 18px !important; /* Tamaño reducido */
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    font-size: 1rem !important; /* Fuente más pequeña */
+}
+
+button:hover {
+    background-color: #FF5722 !important; /* Naranja más oscuro al pasar el ratón */
+}
+
+/* Tarjetas */
+.card {
+    background-color: #FF9800 !important; /* Naranja suave */
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 15px !important; /* Padding reducido */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important; /* Sombra ligera */
+}
+
+/* Enlaces */
+a {
+    color: #1565C0 !important; /* Azul brillante para enlaces */
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #FF5722 !important; /* Naranja brillante al pasar el ratón */
+    text-decoration: underline !important;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: #1565C0 !important; /* Azul brillante para títulos */
+    font-family: 'Comic Sans MS', cursive, sans-serif !important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2) !important; /* Sombra suave */
+    margin-bottom: 12px !important; /* Márgenes reducidos */
+    font-weight: bold !important;
+}
+
+/* Contenido Principal */
+.content-wrapper {
+    background-color: #FFF9C4 !important; /* Fondo amarillo suave */
+    color: #1565C0 !important; /* Texto azul */
+    padding: 18px !important; /* Padding reducido */
+    border-radius: 8px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Párrafos */
+p {
+    font-size: 1rem !important; /* Fuente más pequeña */
+    line-height: 1.5 !important; /* Interlineado más compacto */
+}
+
+/* Alertas y Mensajes */
+.alert {
+    background-color: #FFEB3B !important; /* Amarillo brillante */
+    color: #FF7043 !important; /* Naranja suave */
+    border-radius: 6px !important;
+    padding: 10px !important; /* Padding reducido */
+    font-size: 1rem !important; /* Fuente más pequeña */
+}
+
+/* Estilo de los iconos */
+i {
+    color: #FF5722 !important; /* Naranja brillante para los iconos */
+    font-size: 1.2rem !important; /* Tamaño de los iconos */
+    margin-right: 6px !important; /* Menos espacio entre iconos */
+}

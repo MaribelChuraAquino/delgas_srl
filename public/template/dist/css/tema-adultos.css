@@ -1,0 +1,166 @@
+/* Estilos generales para el tema Adultos */
+body {
+    background-color: #F7F7F7 !important; /* Gris muy claro y suave */
+    color: #555555 !important; /* Gris oscuro pero no agresivo */
+    font-family: 'Lora', serif !important; /* Fuente más elegante y adulta */
+    font-size: 14px !important; /* Tamaño más pequeño y elegante */
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Navbar */
+.main-header {
+    background-color: #3A3A3A !important; /* Gris oscuro elegante */
+    color: #F0F0F0 !important; /* Texto claro para contraste */
+    font-family: 'Lora', serif !important;
+    padding: 10px 25px !important; /* Padding más compacto */
+}
+
+.main-header .navbar-nav .nav-link {
+    color: #F0F0F0 !important; /* Enlaces claros */
+    font-size: 0.9rem !important; /* Tamaño de fuente más pequeño */
+}
+
+.main-header .navbar-nav .nav-link:hover {
+    color: #C4A000 !important; /* Color dorado suave */
+}
+
+/* Sidebar */
+.main-sidebar {
+    background-color: #333333 !important; /* Gris oscuro */
+    color: #E0E0E0 !important; /* Texto claro */
+    padding-top: 20px !important; /* Padding reducido */
+}
+
+.main-sidebar .nav-link {
+    color: #E0E0E0 !important; /* Enlaces claros */
+    font-size: 0.9rem !important; /* Fuente más pequeña */
+}
+
+.main-sidebar .nav-link:hover {
+    background-color: #C4A000 !important; /* Fondo dorado suave al pasar el ratón */
+}
+
+/* Footer */
+footer {
+    background-color: #3A3A3A !important; /* Coincide con el sidebar */
+    color: #F0F0F0 !important;
+    font-family: 'Lora', serif !important;
+    padding: 10px 0 !important; /* Padding más pequeño */
+}
+
+/* Tablas */
+table {
+    background-color: #FFFFFF !important; /* Fondo blanco para claridad */
+    color: #333333 !important; /* Texto oscuro */
+    border: 1px solid #D1D1D1 !important; /* Bordes suaves */
+    border-radius: 4px !important; /* Bordes más redondeados */
+    width: 100% !important;
+    margin-top: 15px !important;
+    font-family: 'Lora', serif !important;
+    box-sizing: border-box !important;
+    table-layout: fixed !important;
+}
+
+table th, table td {
+    padding: 6px !important; /* Menos padding para más compactibilidad */
+    text-align: center !important;
+    word-wrap: break-word !important;
+}
+
+table th {
+    background-color: #C4A000 !important; /* Encabezados dorados */
+    color: white !important; /* Texto blanco */
+    font-size: 0.9rem !important;
+}
+
+/* Formularios y Entradas */
+input, select, textarea {
+    background-color: #FFFFFF !important; /* Fondo blanco */
+    color: #555555 !important; /* Texto gris oscuro */
+    border: 1px solid #D1D1D1 !important; /* Bordes suaves */
+    border-radius: 4px !important; /* Bordes más redondeados */
+   
+    font-size: 0.9rem !important; /* Tamaño reducido */
+   
+    
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none !important;
+    border-color: #C4A000 !important; /* Bordes dorados al hacer foco */
+}
+
+
+
+button:hover {
+    background-color: #B68D00 !important; /* Verde más oscuro al pasar el ratón */
+}
+
+/* Tarjetas */
+.card {
+    background-color: #FFFFFF !important; /* Fondo blanco */
+    color: #333333 !important;
+    border-radius: 6px !important;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Sombra más ligera */
+}
+
+/* Enlaces */
+a {
+    color: #333333 !important; /* Gris oscuro */
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #C4A000 !important; /* Dorado suave al pasar el ratón */
+    text-decoration: underline !important;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: #333333 !important; /* Gris oscuro para títulos */
+    font-family: 'Lora', serif !important;
+    font-weight: 600 !important; /* Peso moderado para un estilo elegante */
+    margin-bottom: 12px !important; /* Márgenes más pequeños */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) !important; /* Sombra sutil */
+}
+
+/* Contenido Principal */
+.content-wrapper {
+    background-color: #FFFFFF !important; /* Fondo blanco */
+    color: #555555 !important; /* Texto gris oscuro */
+   
+    border-radius: 6px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Sombra ligera */
+}
+
+/* Párrafos */
+p {
+    font-size: 0.9rem !important; /* Texto más pequeño */
+    line-height: 1.5 !important; /* Interlineado más estrecho */
+}
+
+/* Alertas y Mensajes */
+.alert {
+    background-color: #F1F1F1 !important; /* Fondo gris claro */
+    color: #555555 !important; /* Texto gris oscuro */
+    border-radius: 4px !important;
+    padding: 10px !important; /* Padding más pequeño */
+    font-size: 0.9rem !important; /* Tamaño adecuado */
+}
+
+/* Estilo de los iconos */
+i {
+    color: #C4A000 !important; /* Dorado suave para los iconos */
+    font-size: 1.3rem !important; /* Tamaño de los iconos reducido */
+    margin-right: 6px !important; /* Espaciado reducido */
+}
+
+.marca {
+    color:#C4A000;
+}
+
+.recibir {
+    color:#C4A000;
+}
